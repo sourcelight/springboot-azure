@@ -21,7 +21,7 @@ public class SpringbootAzureApplication {
     @GetMapping("/message")
     public Mono<String> message(){
 
-        return Mono.just("Hello Application deployed in  Azure !!!");
+        return Mono.just("Hello Max ! : )Application deployed in  Azure !!!");
     }
 
 }
